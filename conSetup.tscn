@@ -1,0 +1,492 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://conSetup.gd" type="Script" id=1]
+
+[node name="conSetup" type="Control"]
+margin_left = 132.0
+margin_right = 1125.0
+margin_bottom = 615.0
+script = ExtResource( 1 )
+
+[node name="lblPP1" type="Label" parent="."]
+margin_left = 67.0
+margin_top = 132.827
+margin_right = 212.0
+margin_bottom = 147.827
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label14" type="Label" parent="."]
+margin_left = 65.0
+margin_top = 108.173
+margin_right = 253.0
+margin_bottom = 123.173
+text = "Jackbox Pack Locations"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblPP2" type="Label" parent="."]
+margin_left = 257.381
+margin_top = 132.827
+margin_right = 402.381
+margin_bottom = 147.827
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblSADrawful" type="Label" parent="."]
+margin_left = 661.381
+margin_top = 132.173
+margin_right = 806.381
+margin_bottom = 147.173
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Drawful 2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label13" type="Label" parent="."]
+margin_left = 661.381
+margin_top = 108.173
+margin_right = 813.381
+margin_bottom = 123.173
+text = "Stand Alone Games"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblSAFibbageXL" type="Label" parent="."]
+margin_left = 661.381
+margin_top = 248.0
+margin_right = 806.381
+margin_bottom = 263.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Fibbage XL"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblSAQuiplash" type="Label" parent="."]
+margin_left = 661.381
+margin_top = 361.339
+margin_right = 806.381
+margin_bottom = 376.339
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Quiplash"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblSAQuiplashB" type="Label" parent="."]
+margin_left = 661.381
+margin_top = 471.622
+margin_right = 871.381
+margin_bottom = 486.622
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Quiplash 2 InterLASHional"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblPP3" type="Label" parent="."]
+margin_left = 439.381
+margin_top = 132.173
+margin_right = 584.381
+margin_bottom = 147.173
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblPP4" type="Label" parent="."]
+margin_left = 65.0
+margin_top = 248.0
+margin_right = 210.0
+margin_bottom = 263.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblPP5" type="Label" parent="."]
+margin_left = 257.381
+margin_top = 248.0
+margin_right = 402.381
+margin_bottom = 263.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblPP6" type="Label" parent="."]
+margin_left = 439.381
+margin_top = 248.0
+margin_right = 584.381
+margin_bottom = 263.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblPP7" type="Label" parent="."]
+margin_left = 65.0
+margin_top = 361.339
+margin_right = 210.0
+margin_bottom = 376.339
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblPP8" type="Label" parent="."]
+margin_left = 253.381
+margin_top = 361.339
+margin_right = 398.381
+margin_bottom = 376.339
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Jackbox Party Pack 8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP1" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 156.173
+margin_right = 156.0
+margin_bottom = 203.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP2" type="Button" parent="."]
+margin_left = 253.381
+margin_top = 156.173
+margin_right = 344.381
+margin_bottom = 203.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP3" type="Button" parent="."]
+margin_left = 439.381
+margin_top = 156.173
+margin_right = 530.381
+margin_bottom = 203.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP6" type="Button" parent="."]
+margin_left = 439.381
+margin_top = 272.0
+margin_right = 530.381
+margin_bottom = 319.0
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP5" type="Button" parent="."]
+margin_left = 257.381
+margin_top = 272.0
+margin_right = 348.381
+margin_bottom = 319.0
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP4" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 272.0
+margin_right = 156.0
+margin_bottom = 319.0
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP7" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 388.173
+margin_right = 156.0
+margin_bottom = 435.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdAuto" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 484.173
+margin_right = 156.0
+margin_bottom = 531.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Attempt Auto Detect"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdSave" type="Button" parent="."]
+margin_left = 65.0
+margin_top = 540.173
+margin_right = 251.0
+margin_bottom = 587.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Save & Continue"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdPP8" type="Button" parent="."]
+margin_left = 253.381
+margin_top = 388.173
+margin_right = 344.381
+margin_bottom = 435.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdSADrawful" type="Button" parent="."]
+margin_left = 661.381
+margin_top = 156.173
+margin_right = 752.381
+margin_bottom = 203.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdSAQuiplash" type="Button" parent="."]
+margin_left = 660.381
+margin_top = 388.173
+margin_right = 751.381
+margin_bottom = 435.173
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdSAFibbageXL" type="Button" parent="."]
+margin_left = 661.381
+margin_top = 272.0
+margin_right = 752.381
+margin_bottom = 319.0
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdSAQuiplashB" type="Button" parent="."]
+margin_left = 661.381
+margin_top = 497.086
+margin_right = 752.381
+margin_bottom = 544.086
+rect_pivot_offset = Vector2( 437.181, 101.829 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblHeader" type="Label" parent="."]
+margin_left = 5.0
+margin_top = 16.0
+margin_right = 950.0
+margin_bottom = 49.0
+text = "Welcome to Jack's Trunk - The All-in-one Jackbox Party Pack Launcher.
+Please select the executable for each game listed below then Save to proceed.
+Green titles mean it's all set and you only need at least one to proceed."
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP1" type="TextEdit" parent="."]
+visible = false
+margin_left = 156.0
+margin_top = 156.173
+margin_right = 196.0
+margin_bottom = 196.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP2" type="TextEdit" parent="."]
+visible = false
+margin_left = 348.0
+margin_top = 156.173
+margin_right = 388.0
+margin_bottom = 196.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP3" type="TextEdit" parent="."]
+visible = false
+margin_left = 532.0
+margin_top = 156.173
+margin_right = 572.0
+margin_bottom = 196.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtSADrawful" type="TextEdit" parent="."]
+visible = false
+margin_left = 756.0
+margin_top = 156.173
+margin_right = 796.0
+margin_bottom = 196.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtSAFibbageXL" type="TextEdit" parent="."]
+visible = false
+margin_left = 756.0
+margin_top = 268.173
+margin_right = 796.0
+margin_bottom = 308.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtSAQuiplash" type="TextEdit" parent="."]
+visible = false
+margin_left = 756.0
+margin_top = 388.173
+margin_right = 796.0
+margin_bottom = 428.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtSAQuiplashB" type="TextEdit" parent="."]
+visible = false
+margin_left = 756.0
+margin_top = 492.173
+margin_right = 796.0
+margin_bottom = 532.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP6" type="TextEdit" parent="."]
+visible = false
+margin_left = 532.0
+margin_top = 268.173
+margin_right = 572.0
+margin_bottom = 308.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP5" type="TextEdit" parent="."]
+visible = false
+margin_left = 348.0
+margin_top = 268.173
+margin_right = 388.0
+margin_bottom = 308.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP4" type="TextEdit" parent="."]
+visible = false
+margin_left = 164.0
+margin_top = 268.173
+margin_right = 204.0
+margin_bottom = 308.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP7" type="TextEdit" parent="."]
+visible = false
+margin_left = 156.0
+margin_top = 388.173
+margin_right = 196.0
+margin_bottom = 428.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="txtPP8" type="TextEdit" parent="."]
+visible = false
+margin_left = 348.0
+margin_top = 388.173
+margin_right = 388.0
+margin_bottom = 428.173
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblScan" type="Label" parent="."]
+margin_left = 257.381
+margin_top = 520.173
+margin_right = 297.381
+margin_bottom = 535.173
+text = "..."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FileDialog" type="FileDialog" parent="."]
+margin_left = 87.381
+margin_top = 67.0
+margin_right = 944.381
+margin_bottom = 509.0
+custom_colors/file_icon_modulate = Color( 0.2, 0.639216, 0.811765, 1 )
+window_title = "Open a File"
+mode = 0
+access = 2
+current_dir = ""
+current_path = ""
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="ready" from="." to="." method="_on_conSetup_ready"]
+[connection signal="pressed" from="cmdPP1" to="." method="_on_cmdPP1_pressed"]
+[connection signal="pressed" from="cmdPP2" to="." method="_on_cmdPP2_pressed"]
+[connection signal="pressed" from="cmdPP3" to="." method="_on_cmdPP3_pressed"]
+[connection signal="pressed" from="cmdPP6" to="." method="_on_cmdPP6_pressed"]
+[connection signal="pressed" from="cmdPP5" to="." method="_on_cmdPP5_pressed"]
+[connection signal="pressed" from="cmdPP4" to="." method="_on_cmdPP4_pressed"]
+[connection signal="pressed" from="cmdPP7" to="." method="_on_cmdPP7_pressed"]
+[connection signal="pressed" from="cmdAuto" to="." method="_on_cmdAuto_pressed"]
+[connection signal="pressed" from="cmdSave" to="." method="_on_cmdSave_pressed"]
+[connection signal="pressed" from="cmdPP8" to="." method="_on_cmdPP8_pressed"]
+[connection signal="pressed" from="cmdSADrawful" to="." method="_on_cmdSADrawful_pressed"]
+[connection signal="pressed" from="cmdSAQuiplash" to="." method="_on_cmdSAQuiplash_pressed"]
+[connection signal="pressed" from="cmdSAFibbageXL" to="." method="_on_cmdSAFibbageXL_pressed"]
+[connection signal="pressed" from="cmdSAQuiplashB" to="." method="_on_cmdSAQuiplashB_pressed"]
+[connection signal="file_selected" from="FileDialog" to="." method="_on_FileDialog_file_selected"]
